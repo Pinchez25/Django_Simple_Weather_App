@@ -1,4 +1,5 @@
-# A Weather App created using python django
+# A Weather App created using python django   
+![screenshot](https://github.com/Pinchez25/Django_Simple_Weather_App/blob/main/screenshot/weather.png)
 
 >To run the app, register at [OpenWeatherMap](https://api.openweathermap.org) to get an API Key.
 
