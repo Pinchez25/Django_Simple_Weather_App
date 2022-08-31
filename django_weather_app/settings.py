@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'weather.apps.WeatherConfig',
 ]
-API_KEY = "c89186416856e99d81b834d2bcadc1d3"
+API_KEY = "XXXXXX"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
