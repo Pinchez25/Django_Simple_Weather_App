@@ -1,7 +1,7 @@
 # A Weather App created using python django   
 ![screenshot](https://github.com/Pinchez25/Django_Simple_Weather_App/blob/main/screenshot/weather.png)
 
->To run the app, register at [OpenWeatherMap](https://api.openweathermap.org) to get an API Key.
+>To run the app, register to [OpenWeatherMap](https://api.openweathermap.org) to get an API Key.
 
 >> Add the API Key to the API_KEY setting in settings.py 
 >
