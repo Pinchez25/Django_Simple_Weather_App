@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="row justify-content-center mt-4">
-        <div class="col-md-8">
+        <div class="col-md-5">
           {% if weather %}
             <div class="card">
                 <div class="card-body">
@@ -55,6 +55,26 @@
         </div>
         {% endif %}
           
+      </div>
+      <div class="col-md-5">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-primary text-center">Your Current Weather</h5>
+            <h6 class="card-subtitle mb-2 text-muted text-center">{{current_city}}</h6>
+            <p class="card-text">
+              <hr>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">{{c_weather|title}}: {{c_weather_description|title}} <img src="http://openweathermap.org/img/w/{{c_weather_icon}}.png" alt=""></li>
+                <li class="list-group-item">Temperature: {{c_temperature|floatformat:"2"}} &#x2103;</li>
+                <li class="list-group-item">Humidity: {{c_humidity}}</li>
+              </ul>
+              <hr>
+            </p>
+          </div>
+          <div class="card-footer text-muted">
+           {{c_coordinates}}
+        </div>
+  </div>
       </div>
     </div>
 

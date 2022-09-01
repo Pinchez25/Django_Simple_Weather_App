@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'weather.apps.WeatherConfig',
 ]
-API_KEY = "XXXXXX"
+API_KEY = "c89186416856e99d81b834d2bcadc1d3"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -64,6 +64,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'weather.context.default_weather',
             ],
         },
     },
